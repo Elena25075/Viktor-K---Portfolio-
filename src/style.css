@@ -36,3 +36,15 @@ p {
   text-decoration: none;
   color: aliceblue;
 }
+.illustrations-home {
+  max-width: 100%;
+}
+.col-3 {
+  padding: 0px;
+}
+.col-6 {
+  padding: 0px;
+}
+.col-md.3 {
+  padding: 0px;
+}
