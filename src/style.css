@@ -1,11 +1,21 @@
-ul {
-  display: flex;
-  justify-content: flex-start;
-  list-style-type: none;
+@media (min-width: 992px) {
+  .header {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
 }
-li {
-  padding: 5px;
+.social-icons {
+  max-width: 20px;
 }
+.name {
+  font-size: 40px;
+}
+.text-under-name {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
 body {
   background-color: black;
 }
@@ -13,5 +23,16 @@ h1 {
   color: aliceblue;
 }
 p {
+  color: aliceblue;
+}
+
+.section-sort {
+  background-color: #101010;
+}
+.category {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
   color: aliceblue;
 }
