@@ -4,7 +4,18 @@
     margin-left: 10%;
     margin-top: 20px;
   }
+  .under-header {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 25px;
+  }
 }
+
+.under-header {
+  padding-left: 12px;
+  margin-bottom: 25px;
+}
+
 .social-icons {
   max-width: 20px;
 }
@@ -14,6 +25,7 @@
 .text-under-name {
   margin-top: 20px;
   font-size: 20px;
+  color: aliceblue;
 }
 
 body {
