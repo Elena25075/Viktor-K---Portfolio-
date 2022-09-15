@@ -43,15 +43,15 @@ p {
 }
 .category {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 14px;
+  padding-bottom: 30px;
   text-decoration: none;
   color: aliceblue;
 }
 
 .category-not-active {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 14px;
   padding-bottom: 20px;
   text-decoration: none;
   color: rgb(174, 182, 190);
@@ -65,6 +65,20 @@ p {
 .col-6 {
   padding: 0px;
 }
-.col-md.3 {
+.col-md-3 {
   padding: 0px;
+}
+.col-md-6 {
+  padding: 0px;
+}
+.col-12 {
+  padding: 0px;
+}
+.hover {
+  transition: transform 300ms ease-in-out;
+  transition: 600ms ease-in-out;
+}
+.hover:hover {
+  background: rgba(51, 51, 51, 0.8);
+  transform: scale(1.1, 1.1);
 }
