@@ -48,6 +48,14 @@ p {
   text-decoration: none;
   color: aliceblue;
 }
+
+.category-not-active {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: rgb(174, 182, 190);
+}
 .illustrations-home {
   max-width: 100%;
 }
