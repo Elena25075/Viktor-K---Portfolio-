@@ -10,6 +10,13 @@
     padding-left: 10%;
     margin-top: 20px;
   }
+  .photo-resume-section {
+    padding: 12px;
+    margin-right: 10%;
+    padding-left: 10%;
+    margin-top: 10px;
+  }
+
   .under-header {
     margin-right: 10%;
     margin-left: 10%;
@@ -23,6 +30,16 @@
     justify-content: center;
     color: white;
   }
+  .foto {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .contact-resume {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 
 .under-header {
@@ -31,7 +48,7 @@
 }
 
 .social-icons {
-  max-width: 20px;
+  max-width: 25px;
 }
 .name {
   font-size: 40px;
@@ -98,7 +115,7 @@ p {
 }
 .foto {
   border-radius: 50%;
-  max-width: 30%;
+  max-width: 70%;
 }
 
 .container-foto {
@@ -119,4 +136,11 @@ ul {
 .programs {
   display: inline;
   width: 30px;
+}
+.work {
+  width: 100%;
+}
+
+.pad-0 {
+  padding: 0px;
 }
